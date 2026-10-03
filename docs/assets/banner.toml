@@ -1,0 +1,11 @@
+name = "Tomatometro"
+tagline = "Sentiment polling for [electoral candidates]"
+chips = ["4 endpoints / Vercel KV"]
+meta = "Source available · TypeScript"
+tile = "{ }"
+
+[card]
+kind = "ledger"
+label = "REST API"
+status = "Proprietary"
+rows = [["/api/votos", "Submit vote", "POST"], ["/api/ranking", "Get ranked candidates", "GET"], ["/api/candidatos", "List all candidates", "GET"], ["/api/stats", "Platform statistics", "GET"]]
